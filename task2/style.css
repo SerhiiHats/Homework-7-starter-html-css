@@ -1,0 +1,61 @@
+.form-verify-address {
+    max-width: 800px;
+    margin: auto;
+    background: #F5F0DD;
+    font-family: Arial;
+    color: #56534F;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset p {
+    margin: 0 auto 16px auto;
+}
+
+.row-enter-address {
+    margin: 16px 0;
+    height: 22%;
+    display: flex;
+    justify-content: center;
+    width: 95%;
+}
+
+input {
+    margin: 0 5px;
+    border-radius: 3px;
+    border: none;
+    font-size: 10px;
+}
+
+.row-enter-address input:first-child {
+    padding: 0 0 0 15px;
+    width: 33%;
+}
+
+.row-enter-address input:last-child {
+    background: #FF2D2E;
+    width: 16%;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.row-enter-address input:last-child:hover {
+    background: red;
+    box-shadow: 0 0 7px 3px lightgrey;
+    text-shadow: 0 0 4px lightskyblue;
+}
+
+.row-enter-address input:last-child:active {
+    border: blue 2px solid;
+    box-shadow: none;
+    color: #3434f1;
+    text-shadow: none;
+}

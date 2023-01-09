@@ -1,0 +1,58 @@
+.form-user-email {
+    background: #F8F9FA;
+    max-width: 1000px;
+    height: 200px;
+    border: 2px solid lightgrey;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-style: italic;
+    font-size: 18px;
+    font-family: Arial;
+    font-weight: bold;
+    color: #727070;
+}
+
+.container-center-input-button {
+    height: 40%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.title-form {
+    margin: 20px 0;
+}
+
+div > input:first-child {
+    width: 60%;
+    height: 70%;
+    padding: 0 0 0 20px;
+    font-style: italic;
+
+}
+
+.button-go {
+    width: 20%;
+    height: 75%;
+    background: #63C39E;
+    margin: 0 0 0 5px;
+    border: none;
+    font-size: 24px;
+    color: #F8F9FA;
+}
+
+.button-go:hover {
+    background: #8bd9bb;
+    text-shadow: 1px 1px 3px grey;
+    box-shadow: 0 0 3px grey;
+}
+
+.button-go:active {
+    background: #63C39E;
+    border: 2px solid #47478a;
+    color: #47478a;
+    box-shadow: none;
+}
+
